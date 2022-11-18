@@ -1,0 +1,26 @@
+.babyName{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: pink;
+}
+.babyNameCollections{
+  border: solid 5px purple;
+  border-radius: 10px;
+  margin: 50px 60px;
+}
+.nameList{
+  padding: 20px 20px;
+}
+.boyBabyName{
+  display: inline-block;
+  font-weight: 600;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: skyblue;
+  }
