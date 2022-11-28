@@ -1,4 +1,4 @@
-.babyName{
+.babyName {
   display: inline-block;
   padding: 10px;
   margin: 10px;
@@ -7,15 +7,15 @@
   border-radius: 10px;
   background-color: pink;
 }
-.babyNameCollections{
+.babyNameCollections {
   border: solid 5px purple;
   border-radius: 10px;
   margin: 50px 60px;
 }
-.nameList{
+.nameList {
   padding: 20px 20px;
 }
-.boyBabyName{
+.boyBabyName {
   display: inline-block;
   font-weight: 600;
   padding: 10px;
@@ -23,14 +23,55 @@
   border: none;
   border-radius: 10px;
   background-color: skyblue;
-  }
-  .search{
+}
+.search {
   padding: 10px;
-  margin-left: 600px;
-  margin-top: 30px;
   font-size: 1rem;
   border: 1px solid #888888;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #888888;
-  }
-  
+}
+.girlBtn {
+  background-color: pink;
+  margin-left: 5px;
+  border: 1px solid #888888;
+  border-radius: 5px;
+}
+.girlBtn:focus {
+  border: 3px solid black;
+}
+.boyBtn {
+  background-color: skyblue;
+  margin-left: 5px;
+  border: 1px solid #888888;
+  border-radius: 5px;
+}
+.boyBtn:focus {
+  border: 3px solid black;
+}
+.allBtn {
+  border: 1px solid #888888;
+  border-radius: 5px;
+}
+.allBtn:focus {
+  border: 3px solid black;
+}
+.navbar {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+.genderBtn {
+  margin-left: 20px;
+  display: flex;
+}
+.favourite {
+  margin: 0 60px;
+}
+.favourite p strong {
+  font-size: 1.5rem;
+  color: black;
+}
+.favourite p {
+  color: gray;
+}
